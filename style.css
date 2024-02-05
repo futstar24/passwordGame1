@@ -1,0 +1,143 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #fffae9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#passwordGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /*background-color: blue;*/
+    padding-bottom: 20px;
+}
+
+#passwordGameInside {
+    width: 420px;
+    font-size: 25px;
+}
+
+
+#inputDiv {
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    /*background-color: red;*/
+}
+
+#inputBox {
+    width: 96%;
+    border-radius: 6px;
+    border: .5px solid black;
+    font-size: 25px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    resize: none;
+    margin-right: 1%;
+    overflow-y: hidden;
+    /*background-color: green;*/
+}
+
+.ruleNumber {
+    margin-left: 20px;
+}
+
+.ruleDiv {
+    width: 390px;
+    border: 1px solid red;
+    border-radius: 6px;
+    background-image: url("PNG WRONG.png");
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: purple;*/
+}
+
+#logos {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 10px;
+}
+
+.logos {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.letterRowDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.letters {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    min-width: 20px;
+    max-width: 20px;
+    text-align: center;
+}
+
+#sacrificeButton {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1.5px solid black;
+    background-color: darkred;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#charBox {
+    width: 110%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputLength {
+    width: 9%;
+}
+
+#chessImageImage {
+    background-color: blue;
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    margin: 5%;
+    margin-top: 0px;
+    object-fit: cover;
+}
+
+#movingButton {
+    position: absolute;
+    background-color: lightcoral;
+    border: 1px solid rgb(97, 8, 8);
+    border-radius: 6px;
+    margin-left: 50%;
+    margin-top: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
